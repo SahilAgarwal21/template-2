@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./scripts/jquery.tiltedpage-scroll.js"></script>
+
+    <link rel="stylesheet" href="./styles/tiltedpage-scroll.css">
+</head>
+<body>
+    <div class="main">
+    <section class="header">
+        <div class="content-box">
+            <div class="menu">
+                <img src="./images/logo.png" alt="">
+                <button type="button"><i class="fa fa-sign-in"></i>
+                    Login</button>
+            </div>
+            <div class="banner-text">
+                <h2>CREATIVE WEB DESIGN</h2>
+                <P>SUBSCRIBE TO NEWS LETTEER TO KNOW MORE</P>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+
+    <section class="service">
+        <div class="content-box">
+            <div class="container">
+                <h1>Our Services</h1>
+                <div class="row services">
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-renren"></i>
+                        </div>
+                        <h3>Brand <span>Activation</span></h3>
+                        <p>Subscribe to our newsletter to know more about Web development, UI design, Photoshop and Digital marketing.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                        <h3>Employee <span>Activity</span></h3>
+                        <p>Subscribe to our newsletter to know more about Web development, UI design, Photoshop and Digital marketing.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-meetup"></i>
+                        </div>
+                        <h3>Event <span>Organizer</span></h3>
+                        <p>Subscribe to our newsletter to know more about Web development, UI design, Photoshop and Digital marketing.</p>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div class="icon">
+                            <i class="fa fa-video-camera"></i>
+                        </div>
+                        <h3>Video <span>Production</span></h3>
+                        <p>Subscribe to our newsletter to know more about Web development, UI design, Photoshop and Digital marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+
+    <section class="feature">
+        <div class="content-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Features Are</h2>
+                        <ul>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li>Lorem ipsum dolor  adipisicing elit. Officiis.</li>
+                            <li>Lorem ipsum dolor sit, amet  adipisicing elit. Officiis.</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur  Officiis.</li>
+                            <li>Lorem ipsum dolor sit, amet Officiis.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./images/feature.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <section class="footer">
+        <div class="content-box">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="contact-form" action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email ID" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6 contact-info">
+                        <div class="follow">
+                            <i class="fa fa-map-marker"></i><span>Rudrapur, IN</span>
+                        </div>
+                        <div class="follow">
+                            <i class="fa fa-phone"></i><span>+91 9917069122</span>
+                        </div>
+                        <div class="follow">
+                            <i class="fa fa-envelope-o"></i><span>sahil11875@gmail.com</span>
+                        </div>
+                        <div class="follow">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-youtube-play"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Made with <i class="fa fa-heart-o"></i> by Sahil Agarwal</p>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script>
+        $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+    </script>
+</body>
+</html>
